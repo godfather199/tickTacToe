@@ -1,0 +1,19 @@
+.resetBtn {
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+    padding: 15px;
+    width: 140px;
+    /* height: 100px; */
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 10px 10px 25px -5px black;
+    transition: 0.4s ease;
+  }
+  
+  .resetBtn:hover {
+      transform: scale(1.1);
+  }

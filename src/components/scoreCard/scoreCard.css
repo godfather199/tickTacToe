@@ -1,0 +1,40 @@
+.scorecardContainer {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 17rem;
+    height: 230px;
+    font-size: 1.5rem;
+    background-color: white;
+    margin: 3rem auto;
+    box-shadow: 0px 0px 20px -6px black;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .score {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0rem;
+  }
+  
+  .x-score {
+    color: black;
+    /* border-bottom: 5px solid rgb(255, 70, 37); */
+    background-color: lightblue;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+  }
+  
+  .o-score {
+    color: green;
+    /* border-bottom: 5px solid rgb(44, 135, 255); */
+    background-color: lightblue;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+  }
+  
+  .inactive {
+    /* border-bottom: 5px solid transparent; */
+    background-color: white;
+  }
